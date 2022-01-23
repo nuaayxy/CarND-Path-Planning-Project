@@ -5,6 +5,7 @@ The Goal of the project is to using map landmarks and sensor fusion data to navi
 
 ### Pipeline
 
+1. We use Frenet coordinate and keep the car drive on its lane. The coordinate is converted to xy use the helper function GetXY()
 Here is a example video how the car drives on the highway. 
 
 https://user-images.githubusercontent.com/8016115/150668858-599308cd-0727-4fda-bfb6-94fed67dfe93.mp4
