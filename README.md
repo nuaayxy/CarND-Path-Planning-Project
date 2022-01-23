@@ -1,6 +1,17 @@
 # CarND-Path-Planning-Project
 Self-Driving Car Engineer Nanodegree Program
+### Goal
+The Goal of the project is to using map landmarks and sensor fusion data to navigate the car to drive smoothly in a chunk of highway. 
+
+### Pipeline
+
+## discussion
+
+
    
+   
+   
+
 ### Simulator.
 You can download the Term3 Simulator which contains the Path Planning Project from the [releases tab (https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2).  
 
