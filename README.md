@@ -8,6 +8,7 @@ The Goal of the project is to using map landmarks and sensor fusion data to navi
 1. We use Frenet coordinate and keep the car drive on its lane. The coordinate is converted to xy use the helper function GetXY(), we try to keep a constant speed at 45.
 2. Sensor fusion data is used to check if there is a car in same lane in front of us getting to close. We gradually reduce the speed of the car if distance in between is less than a threshold
 3. If in some case we are getting too close to a very slow car in front we will switch the left lane and pass. This again is done by checking sensor fusion data. 
+4. We use spline fitting to always try to fit a smooth trajectory when switch lane
 
 
 Here is a example video how the car drives on the highway. 
